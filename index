@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+	<link href="/normalize.css" rel="stylesheet" />
+	<script src="/modernizr.js" type="text/javascript"></script>
+<style type="text/css">
+/*Style the widget */
+.widget-title .fa {
+  float:right; 
+  padding-top: 4px;
+}
+ul.widget-area {
+  padding: 20px;
+  margin:20px;
+  border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+  border: 1px solid #DBDBDB;
+}
+
+.widget-area, .widget2 {
+  list-style: none;
+}
+.widget-title {
+  color:#0a4d7a !important;
+  margin-bottom: 10px;
+  border-bottom: solid 1px #ddd;
+  padding-bottom: 6px;
+  font-size: 18px !important;
+}
+
+.widget-contents {
+  font-size: 16px !important;
+}
+
+.widget-area {
+  max-width: 400px;
+}
+a.widget-link {
+  text-decoration: none;
+  color: #0062A0;
+}
+
+a.widget-link:hover {
+  text-decoration: none;
+  color: #3d90b7;
+}
+/*Style the button */
+.early-button {
+  font-weight:bold;
+  font-size: 18px !important;
+  background:#8cc452;
+  color:#ffffff !important; 
+  text-decoration: none; 
+  text-align:center; 
+  padding: 20px;
+  width: 100%; 
+  border:solid 1px #9ccd6b; 
+  border-radius: 8px; 
+  -webkit-border-radius:8px;
+  -moz-border-radius:8px; 
+  outline: 0 !important;
+}
+
+.early-button:hover {
+  font-weight:bold !important;
+  background:#8ccd49;
+  color:#ffffff !important; 
+  text-decoration: none;
+  text-align: center; 
+  width: 100%;
+  border:solid 1px #9ccd6b;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.early-button:active {
+	outline: 0 !important;
+	box-shadow: none !important;
+}
+.early-button:focus {
+	outline: 0 !important;
+	box-shadow: none !important;
+}	
+</style>
+</head>
+
+<body>
+<ul class="widget-area">
+	<p><a href="#">Read Early Release Articles</button></a>
+	</p>
+	<li class="widget2">
+		<h3 class="widget-title">
+			<span class="widget-inner">June 11, 2015</span></h3>
+		<div class="widget-contents">
+			<a class="widget-link" href="#">Chocolate cake lollipop marzipan soufflÃ© pie candy bonbon. Biscuit chocolate sweet jelly.</a>
+			</div>
+		<br />
+		<div class="widget-contents">
+			<a class="widget-link" href="#">Toffee carrot cake marshmallow. Jelly-o halvah topping dragÃ©e.</a>
+    </div>
+	</li>
+	
+	<li class="widget2">
+		<h3 class="widget-title">
+			<span class="widget-inner">May 27, 2015</span></h3>
+		<div class="widget-contents">
+			<a class="widget-link" href="#">Brownie cotton candy powder cookie chupa chups.</a></div>
+	</li>
+</ul>
+</body>
+</html>
